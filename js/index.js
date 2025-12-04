@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         tarjeta.classList.add("card");
 
         const img = document.createElement("img");
-        img.src = `../${producto.img}`;
+        img.src = `./${producto.img}`;
         img.alt = producto.nombre;
 
         const titulo = document.createElement("h3");
