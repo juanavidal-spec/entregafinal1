@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background-color: #d8cbb6;
+  color: #5b6853;
+
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: #3b3b3b;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+h2 {
+  color: #3b3b3b;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1;
+}
+h3 {
+  color: #3b3b3b;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.btn {
+  background-color: #8a9b80;
+  color: #f5f2ed;
+  border: none;
+  padding: 1.6rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+/* -------------------------------------------------------------------------- */
+/*                                Nuevo botones                               */
+/* -------------------------------------------------------------------------- */
+.btn-eliminar-carrito {
+  background-color: #8a9b80;
+  border: 2px solid #1d1a20;
+}
+
+.btn-vaciar-carrito {
+  background-color: #8a9b80;
+  color: #1d1a20;
+}
+
+.btn-vaciar-carrito:hover {
+  background-color: #8a9b80;
+}
+
+header,
+footer {
+  background-color: #8a9b80;
+  color: #f5f2ed;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div-log {
+  margin-left: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.logo,
+.header-nav ul li a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: inherit;
+  display: inline-block;
+  padding: 2rem;
+}
+
+.header-nav {
+  margin-right: 2rem;
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+footer nav ul li {
+  padding: 1rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                HOME                                        */
+/* -------------------------------------------------------------------------- */
+
+.titulo-home {
+  margin: 3rem 0;
+}
+
+.titulo-productos {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.parrafo {
+  width: 80%;
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  background: #d8cbb6;
+  color: #8a9b80;
+
+  width: 40rem;
+  padding-bottom: 2rem;
+  border-radius: 1rem;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card img {
+  width: 100%;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                CONTACTO                                    */
+/* -------------------------------------------------------------------------- */
+
+.titulo-contacto {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.form-contacto {
+  background-color: #5b6853;
+  color: #e5e6e8;
+  width: 100%;
+  max-width: 50rem;
+  font-size: 2rem;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                Nuevo: Carrito                              */
+/* ---------------------------------------------------------------------------*/
+
+.mensaje-carrito-vacio {
+  font-size: 2.5 rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.acciones-carrito {
+  margin-top: 2rem;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/*                                MEDIA                                       */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  header,
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .div-logo,
+  .header-nav {
+    margin: 0;
+  }
+  .contenedor-tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

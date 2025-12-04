@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "nombre": "Producto 1",
+    "precio": 1234,
+    "img": "img/bowl.jpeg"
+  },
+  {
+    "id": "2",
+    "nombre": "Producto 2",
+    "precio": 1234,
+    "img": "img/mate.jpeg"
+  },
+  {
+    "id": "3",
+    "nombre": "Producto 3",
+    "precio": 1234,
+    "img": "img/plato.jpeg"
+  },
+  {
+    "id": "4",
+    "nombre": "Producto 4",
+    "precio": 1234,
+    "img": "img/taza.jpeg"
+  }
+]
